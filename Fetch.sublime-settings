@@ -1,0 +1,12 @@
+{
+	"files":
+	{
+		"jquery": "http://code.jquery.com/jquery.min.js"
+	},
+	"packages":
+	{
+		"HTML5 Boilerplate": "https://github.com/h5bp/html5-boilerplate/archive/master.zip",
+		"HtmlTemplate": "https://github.com/m-s-modified/Template/archive/master.zip",
+		"Twitter Bootstrap": "http://twitter.github.io/bootstrap/assets/bootstrap.zip"
+	}
+}

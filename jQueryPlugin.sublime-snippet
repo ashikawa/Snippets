@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+/*browser: true*/
+/*global jQuery*/
+(function (\$) {
+    'use strict';
+
+    \$.fn.${1:pluginName} = function (options) {
+
+        var defaults = {},
+            options  = \$.extend(defaults, options);
+
+        return this.each(function (element) {
+            var $this = \$(element);
+            ${2:// main}
+        });
+    };
+}(jQuery));
+]]></content>
+    <tabTrigger>plugin</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/*jslint ${1:node:true}, ${2:browser:true}, ${3:plusplus:true}, ${4:unparam:true}*/
+/*global ${5}*/
+(function () {
+    'use strict';
+    ${6}
+}());
+]]></content>
+    <tabTrigger>empty js ...</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
